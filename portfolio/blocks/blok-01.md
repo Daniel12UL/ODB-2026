@@ -1,5 +1,4 @@
-# Blok 1 – Konzolová aplikace (Python)
-
+# Blok 1 – Konzolová aplikace 
 ## Cíl
 
 Chtěl jsem vytvořit aplikaci, která mi pomůže sledovat, kolik jsem ten den vypil vody. Aplikace se ptá na počet sklenic, zapisuje záznamy do souboru a na konci ukáže celkový příjem a zhodnotí, jestli jsem splnil doporučený denní limit.
