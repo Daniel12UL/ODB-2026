@@ -122,7 +122,3 @@ Nástroj pro verzování kódu – sleduje historii změn v souborech. Každá u
 Jeden „snímek" stavu projektu uložený v Gitu. Každý commit má zprávu popisující, co se změnilo. Správná zpráva říká co a proč, ne jen „oprava" nebo „update".
 
 ---
-
-- [https://docs.python.org/3/tutorial/errors.html](https://docs.python.org/3/tutorial/errors.html) – výjimky v Pythonu
-- [https://docs.python.org/3/tutorial/inputoutput.html](https://docs.python.org/3/tutorial/inputoutput.html) – práce se soubory
-- [https://git-scm.com/doc](https://git-scm.com/doc) – Git dokumentace
