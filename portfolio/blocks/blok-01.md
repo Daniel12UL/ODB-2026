@@ -52,10 +52,4 @@ V projektu jsem pracoval s funkcemi, výjimkami (`try/except`) a se soubory. Dat
 
 Podrobnější vysvětlení pojmů je v souboru `teorie.md`.
 
----
-
-## Zdroje
-
-- [https://docs.python.org/3/](https://docs.python.org/3/) – dokumentace Pythonu, hlavně sekce o souborech a výjimkách
-- [https://realpython.com/python-exceptions/](https://realpython.com/python-exceptions/) – článek o ošetření výjimek, pomohl mi pochopit rozdíl mezi `except Exception` a konkrétními typy
-- Ukázky z hodin – vzor pro strukturu modulu s funkcemi
+--
