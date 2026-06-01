@@ -123,13 +123,6 @@ Jeden „snímek" stavu projektu uložený v Gitu. Každý commit má zprávu po
 
 ---
 
-**GitHub**
-Webová platforma pro ukládání a sdílení Git repozitářů. Umožňuje přistupovat ke kódu odkudkoli a sdílet ho s ostatními.
-
----
-
-## Zdroje
-
 - [https://docs.python.org/3/tutorial/errors.html](https://docs.python.org/3/tutorial/errors.html) – výjimky v Pythonu
 - [https://docs.python.org/3/tutorial/inputoutput.html](https://docs.python.org/3/tutorial/inputoutput.html) – práce se soubory
 - [https://git-scm.com/doc](https://git-scm.com/doc) – Git dokumentace
