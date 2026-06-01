@@ -10,8 +10,7 @@ Chtěl jsem navrhnout logo pro fiktivní hudební festival „Letní zvuk". Logo
 
 Začal jsem skicami na papíře – vyzkoušel jsem asi 5 různých konceptů, než jsem se rozhodl pro kruhové logo s reproduktorem uprostřed a textem po obvodu kruhu.
 
-Reproduktor jsem sestavil z obdélníků a lichoběžníků. Zvukové vlny jsem udělal pomocí Bezierových křivek – nejdřív jsem kreslil oblouky ručně, ale výsledek byl nesouměrný. Vyřešil jsem to tak, že jsem udělal jeden oblouk přesně, zkopíroval ho a postupně zvětšoval.
-
+Reproduktor jsem sestavil z obdélníků a lichoběžníků. Zvukové vlny jsem udělal pomocí Bezierových křivek – nejdřív jsem kreslil oblouky ručně, ale výsledek byl nesouměrný. Vyřešil jsem to tak, že jsem udělal jeden oblouk přesně, zko
 Text po obvodu kruhu byl technicky nejsložitější – funkce Text → Put on Path v Inkscape ho umístila podél kruhu, ale bylo třeba ladit polohu. Na konci jsem text převedl na křivky, aby nebyl závislý na fontu.
 
 ---
@@ -24,7 +23,7 @@ Text po obvodu kruhu byl technicky nejsložitější – funkce Text → Put on 
 ![Logo černobíle](../assets/images/blok5_logo_bw.png)
 ![Logo barevně](../assets/images/blok5_logo_color.png)
 
-- Logo funguje i v malé velikosti (favicon 32×32 px) – testoval jsem export.
+- Logo funguje i v malé velikosti (favicon 32×awsdsafasfsaffsa2 px) – testoval jsem export.
 
 ---
 
@@ -34,9 +33,7 @@ S výsledkem jsem spokojený. Logo je čitelné v malé i velké verzi, což byl
 
 ---
 
-## Teoretické pozadí (stručně)
-
-Vektorová grafika popisuje objekty matematicky jako body, křivky a tvary – na rozdíl od rastrové grafiky, která ukládá pixely. Výsledek je bezeztrátově škálovatelný. V Inkscape jsem pracoval s Bezierovými křivkami, Boolean operacemi a SVG formátem. Podrobné vysvětlení pojmů je v `teorie.md`.
+## Teoretické pozadí (stručně)lný. V Inkscape jsem pracoval s Bezierovými křivkami, Boolean operacemi a SVG formátem. Podrobné vysvětlení pojmů je v `teorie.md`.
 
 ---
 
