@@ -8,7 +8,7 @@ Každý blok obsahuje:
   
 ## Přehled bloků
 
-## **Blok 1 – Python – konzolová aplikace**
+## **Blok 1 a 2 – Python – konzolová aplikace**
   - [Praktická část](portfolio/blocks/blok-01.md)
   - [Teoretické pozadí](portfolio/teorie/teorie-01.md)
 
