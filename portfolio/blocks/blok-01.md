@@ -1,54 +1,73 @@
-# Blok 1 – Konzolová aplikace 
+# Blok 1 – Konzolové aplikace 
 ## Cíl
 
-Chtěl jsem vytvořit aplikaci, která mi pomůže sledovat, kolik jsem ten den vypil vody. Aplikace se ptá na počet sklenic, zapisuje záznamy do souboru a na konci ukáže celkový příjem a zhodnotí, jestli jsem splnil doporučený denní limit.
+Chtěl jsem vytvořit aplikace, které bych mohl i normálně využít, a nebo nějaké, které jsou něčím zajímavé.
 
 ---
 
 ## Postup
 
-Nejdřív jsem si nakreslil na papír, co aplikace má umět – přidat záznam, zobrazit historii a vymazat dnešní data. Pak jsem začal programovat postupně: nejdřív funkci pro přidávání záznamu, pak čtení ze souboru a nakonec výpočet součtu.
-
-Největší problém byl, když jsem zapomněl ošetřit případ, že soubor ještě neexistuje – program padal s `FileNotFoundError`. Vyřešil jsem to přes `try/except` a výchozí prázdný seznam.
-
-Průběžně jsem commitoval na GitHub s popisnými zprávami, abych se mohl vrátit k předchozí verzi, když jsem něco pokazil.
+Vždy jsem si prvně sepsal sám nebo s pomocí konzultanta či Ai co od aplikace potřebuji (přesné zadání) a začal jsem psát kod.
+Když jsem narazil na chybu a nebo nevěděl jak dál, tak jsem se ptal ostatních --> Ai, konzultant, youtube atp.
+S postupem času jsem vytvořil aplikaci
 
 ---
 
 ## Výstupy
-
-- Soubory `main.py` a `uloziste.py` na GitHubu
-- Data se ukládají do `data/zaznamy.txt`
-- Ukázka výstupu aplikace:
+ukázka kousku kodu probability simulatoru
+- 
 
 ```
-=== Sledování pitného režimu ===
-1) Přidat záznam
-2) Zobrazit historii
-3) Konec
+=== Probability simulator / CS2 case opening simulator ===
+def load_from_csv(filename: str, mode: str) -> Tuple[List[SimulationOutcome], bool]:
+    """Načte data z CSV souboru a provede validaci jednotlivých řádků."""
+    outcomes = []
+    try:
+        with open(filename, mode='r', encoding='utf-8') as f:
+            reader = csv.reader(f)
+            next(reader, None)  # Přeskočení záhlaví tabulky
+           
+            for row_num, row in enumerate(reader, start=2):
+                if not row or len(row) < 2:
+                    print(f"Varování: Přeskočen neúplný řádek {row_num}.")
+                    continue
+               
+                try:
+                    name = row[0].strip()
+                    value = float(row[1])
+                   
+                    if mode == "equal":
+                        probability = 0.0  # Bude dopočítáno rovnoměrně následně
+                    else:
+                        if len(row) < 3:
+                            print(f"Varování: Na řádku {row_num} chybí definice pravděpodobnosti. Přeskočeno.")
+                            continue
+                        probability = float(row[2]) / 100.0
+                        if probability < 0:
+                            print(f"Varování: Záporná pravděpodobnost na řádku {row_num}. Přeskočeno.")
+                            continue
+                   
+                    outcomes.append(SimulationOutcome(name, value, probability))
+                except ValueError:
+                    print(f"Varování: Chyba formátu dat na řádku {row_num}. Přeskočeno.")
 
-Volba: 1
-Počet sklenic: 3
-Uloženo. Celkem dnes: 3 sklenice (0.75 l)
 
-Volba: 2
---- Historie ---
-14:32  3 sklenice
-15:48  2 sklenice
-Celkem: 5 sklenic (1.25 l) — doporučeno: 8 sklenic (2 l)
+
 ```
+
+
 
 ---
 
 ## Reflexe
 
-Aplikace funguje tak, jak jsem plánoval. Překvapilo mě, jak moc práce je jen ošetření špatných vstupů – myslel jsem, že to bude triviální, ale uživatel může zadat cokoli. Příště bych rovnou psal funkce kratší a více oddělené, protože funkce `zobraz_historii()` mi nakonec dělala víc věcí najednou a bylo těžší ji ladit. Verzování přes Git mi skutečně pomohlo – jednou jsem se vrátil o dva commity zpět, protože jsem rozbil načítání souboru.
+Aplikace funguje tak, jak jsem plánoval. Překvapilo mě, jak moc práce je jen ošetření špatných vstupů – myslel jsem, že to bude jednodušší.
 
 ---
 
 ## Teoretické pozadí (stručně)
 
-V projektu jsem pracoval s funkcemi, výjimkami (`try/except`) a se soubory. Datové struktury jsem použil hlavně seznam (list) pro historii záznamů a slovník (dict) pro jeden záznam s časem a hodnotou. Kód je rozdělený do dvou modulů – `main.py` řídí tok programu, `uloziste.py` se stará o čtení a zápis dat. Verzování jsem dělal přes Git a repozitář je na GitHubu.
+V projektu jsem pracoval s funkcemi, výjimkami (`try/except`) a se soubory. Datové struktury jsem použil hlavně seznam (list) pro historii záznamů a slovník (dict) pro jeden záznam s časem a hodnotou.
 
 Podrobnější vysvětlení pojmů je v souboru `teorie.md`.
 
