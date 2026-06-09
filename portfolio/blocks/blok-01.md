@@ -69,6 +69,6 @@ Aplikace funguje tak, jak jsem plánoval. Překvapilo mě, jak moc práce je jen
 
 V projektu jsem pracoval s funkcemi, výjimkami (`try/except`) a se soubory. Datové struktury jsem použil hlavně seznam (list) pro historii záznamů a slovník (dict) pro jeden záznam s časem a hodnotou.
 
-Podrobnější vysvětlení pojmů je v souboru `teorie.md`.
+Podrobnější vysvětlení pojmů je v souboru `teorie-01.html`.
 
 --
