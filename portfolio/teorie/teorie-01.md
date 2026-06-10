@@ -14,7 +14,7 @@ jako příklady toho co jsem se učil josu například funkce, debugging a třeb
 hlavní zdroj byl youtube kanál pana Davida šetka [David Šetek](https://www.youtube.com/@hacknisvoubudoucnost)
 
 
-##SLOVNÍK
+## SLOVNÍK
 
 ————————————
 
