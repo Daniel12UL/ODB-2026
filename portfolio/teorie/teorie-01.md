@@ -15,8 +15,7 @@ hlavní zdroj byl youtube kanál pana Davida šetka [David Šetek](https://www.y
 
 
 ## SLOVNÍK
-
-————————————
+## ————————————
 
 1) základy jazyka
 
