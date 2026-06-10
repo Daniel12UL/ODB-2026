@@ -9,9 +9,14 @@ Naučil jsem se rychleji psát kody a lépe chápat slovíčka.
 jako příklady toho co jsem se učil josu například funkce, debugging a třeba také třídy a objekty.
 
 
+##Zdroj mého učení
 
-SLOVNÍK
-————————
+hlavní zdroj byl youtube kanál pana Davida šetka [David Šetek](https://www.youtube.com/@hacknisvoubudoucnost)
+
+
+##SLOVNÍK
+
+————————————
 
 1) základy jazyka
 
