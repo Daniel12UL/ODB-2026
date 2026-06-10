@@ -11,12 +11,12 @@ jako příklady toho co jsem se učil josu například funkce, debugging a třeb
 
 ##Zdroj mého učení
 
-hlavní zdroj byl youtube kanál pana Davida šetka [David Šetek](https://www.youtube.com/@hacknisvoubudoucnost)
-
-
-## SLOVNÍK
-## ————————————
-
+hlavní zdroj byl youtube kanál pana Davida šetka [David Šetek](https://www.youtube.com/@hacknisvoubudoucnost)                          ##|
+                                                                                                                                       ##|
+                                                                                                                                       ##|
+## SLOVNÍK                                                                                                                             ##|
+## ————————————                                                                                                                        ##|
+                                                    
 1) základy jazyka
 
 <img width="633" height="345" alt="image" src="https://github.com/user-attachments/assets/0ec048cb-2e84-4f4e-a212-247549fdc2a7" />
