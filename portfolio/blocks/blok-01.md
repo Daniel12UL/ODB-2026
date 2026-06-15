@@ -17,7 +17,7 @@ S postupem času jsem vytvořil aplikaci
 ukázka kousku kodu probability simulatoru
 - 
 
-```
+
 === Probability simulator / CS2 case opening simulator ===
 def load_from_csv(filename: str, mode: str) -> Tuple[List[SimulationOutcome], bool]:
     """Načte data z CSV souboru a provede validaci jednotlivých řádků."""
@@ -53,7 +53,7 @@ def load_from_csv(filename: str, mode: str) -> Tuple[List[SimulationOutcome], bo
 
 
 
-```
+
 
 
 
