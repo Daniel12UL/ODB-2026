@@ -70,10 +70,3 @@ hlavní zdroj byl youtube kanál pana Davida šetka [David Šetek](https://www.y
 ## 10) Debugging
 
 <img width="362" height="212" alt="image" src="https://github.com/user-attachments/assets/32e0c7b6-f6f6-4168-9683-f167ebc98fae" />
-
-
-
-
-<img width="928" height="733" alt="image" src="https://github.com/user-attachments/assets/f6b2b9ea-4d41-4b43-ba3c-b9ca3758d969" />
-<img width="1591" height="661" alt="image" src="https://github.com/user-attachments/assets/6cac6f8f-c71f-4245-b067-b602a3f635a3" />
-
