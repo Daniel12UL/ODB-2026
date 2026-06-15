@@ -26,16 +26,13 @@ def load_from_csv(filename: str, mode: str) -> Tuple[List[SimulationOutcome], bo
         with open(filename, mode='r', encoding='utf-8') as f:
             reader = csv.reader(f)
             next(reader, None)  # Přeskočení záhlaví tabulky
-           
             for row_num, row in enumerate(reader, start=2):
                 if not row or len(row) < 2:
                     print(f"Varování: Přeskočen neúplný řádek {row_num}.")
                     continue
-               
                 try:
                     name = row[0].strip()
                     value = float(row[1])
-                   
                     if mode == "equal":
                         probability = 0.0  # Bude dopočítáno rovnoměrně následně
                     else:
@@ -46,7 +43,6 @@ def load_from_csv(filename: str, mode: str) -> Tuple[List[SimulationOutcome], bo
                         if probability < 0:
                             print(f"Varování: Záporná pravděpodobnost na řádku {row_num}. Přeskočeno.")
                             continue
-                   
                     outcomes.append(SimulationOutcome(name, value, probability))
                 except ValueError:
                     print(f"Varování: Chyba formátu dat na řádku {row_num}. Přeskočeno.")
