@@ -15,7 +15,7 @@ S postupem času jsem vytvořil aplikaci
 
 ## Výstupy
 ukázka kousku kodu probability simulatoru
-- 
+-----------------------------------------
 
 ```
 import csv
